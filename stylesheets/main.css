@@ -1,0 +1,129 @@
+/*@import "compass/reset";*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white; }
+  body a {
+    text-decoration: none;
+    color: white; }
+  body a:hover {
+    color: gray; }
+  body .mainWrap {
+    width: 1280px;
+    height: 2407px;
+    margin: 0 auto; }
+    body .mainWrap #join {
+      display: block;
+      position: relative;
+      background-repeat: no-repeat;
+      background: url("../PSDs/imgs/applyFormBG.jpg");
+      height: 672px; }
+      body .mainWrap #join > div header {
+        width: 90%;
+        height: 67.2px;
+        margin: 0 auto;
+        background-color: green; }
+        body .mainWrap #join > div header .logo {
+          width: 29%;
+          display: inline-block;
+          z-index: 99;
+          position: relative; }
+        body .mainWrap #join > div header nav {
+          font-size: 14px;
+          z-index: 99;
+          position: relative;
+          width: 70%;
+          display: inline-block;
+          bottom: 30%; }
+          body .mainWrap #join > div header nav ul {
+            float: right;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow: hidden;
+            *zoom: 1; }
+            body .mainWrap #join > div header nav ul li {
+              list-style-image: none;
+              list-style-type: none;
+              margin-left: 0;
+              white-space: nowrap;
+              float: left;
+              padding-left: 25px;
+              padding-right: 25px; }
+              body .mainWrap #join > div header nav ul li:first-child {
+                padding-left: 0; }
+              body .mainWrap #join > div header nav ul li:last-child {
+                padding-right: 0; }
+              body .mainWrap #join > div header nav ul li.last {
+                padding-right: 0; }
+      body .mainWrap #join > div .content {
+        display: block;
+        width: 80%;
+        height: 604.8px;
+        margin: 0 auto;
+        background-color: blue;
+        z-index: 99;
+        position: relative; }
+        body .mainWrap #join > div .content .promoText {
+          display: inline-block;
+          width: 45%;
+          height: 80%;
+          vertical-align: top;
+          background-color: WHITE;
+          margin: 0 2.5%; }
+          body .mainWrap #join > div .content .promoText span {
+            background-color: black; }
+        body .mainWrap #join > div .content .applyForm {
+          display: inline-block;
+          vertical-align: top;
+          width: 45%;
+          height: 80%;
+          margin-left: 2.5%;
+          background-color: yellow; }
+        body .mainWrap #join > div .content .arrowDown {
+          height: 20%;
+          width: 20%;
+          margin: 6% auto;
+          text-align: center; }
+    body .mainWrap #join::after {
+      content: "";
+      background-color: #020000;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=45);
+      opacity: 0.45;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: 1; }
+    body .mainWrap footer {
+      width: 100%;
+      /*@include sticky-footer(24px);*/ }
+      body .mainWrap footer #footer div {
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        *zoom: 1;
+        *display: inline;
+        padding-left: 64px; }
+        body .mainWrap footer #footer div ul {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          overflow: hidden;
+          *zoom: 1; }
+          body .mainWrap footer #footer div ul li {
+            list-style-image: none;
+            list-style-type: none;
+            margin-left: 0;
+            white-space: nowrap;
+            float: left;
+            padding-left: 12px;
+            padding-right: 12px; }
+            body .mainWrap footer #footer div ul li:first-child {
+              padding-left: 0; }
+            body .mainWrap footer #footer div ul li:last-child {
+              padding-right: 0; }
+            body .mainWrap footer #footer div ul li.last {
+              padding-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
