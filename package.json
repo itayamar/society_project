@@ -1,0 +1,23 @@
+{
+  "name": "society_project",
+  "version": "1.0.0",
+  "description": "A project for the company society",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seedstarter/society_project"
+  },
+  "author": "Itay and nastia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seedstarter/society_project/issues"
+  },
+  "homepage": "https://github.com/seedstarter/society_project"
+}

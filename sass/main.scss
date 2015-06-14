@@ -1,4 +1,5 @@
 /*@import "compass/reset";*/
+@import "compass/css3/box-sizing";
 @import "compass/css3/border-radius";
 @import "compass/typography/lists/horizontal-list";
 @import "compass/layout/sticky-footer";
@@ -11,6 +12,7 @@
 body {
   font-family: $font_open_sans;
   color: $main_font_color;
+  //@include box-sizing(border-box);
   a{
     text-decoration: none;
     color: $main_font_color;
@@ -53,28 +55,55 @@ body {
         .content {
           display: block;
           width: 80%;
-          height: $section_height*0.9;
-          margin:  0 auto;
+          height: $section_height*0.8;
+          margin:  5% auto 0;
+          //padding-top: 10%;
           @include bgColor(blue);
           @include posFront;
           .promoText{
             display: inline-block;
             width: 45%;
-            height: 80%;
+            height: 70%;
             vertical-align: top;
             @include bgColor(WHITE);
+            padding-top: 3%;
             margin: 0 2.5%;
             span{
               background-color: black;
             }
           }
-          .applyForm{
+          .applyFormDiv{
+            @include box-sizing(border-box);
             display: inline-block;
             vertical-align: top;
             width: 45%;
             height: 80%;
             margin-left: 2.5%;
-            @include bgColor(yellow);
+            padding: 1em 0 0 4em;
+            //@include bgColor(black);
+            background: url("../PSDs/imgs/formImg.jpg") no-repeat;
+            background-size: contain;
+            p{
+              margin-left: 1em;
+              font-size: 1.0625em;
+            }
+          form{
+            input{
+              margin-top: 0.2em;
+              color: #808080;
+              padding: 0.5em;
+              border-radius: 5px;
+            }
+            input:nth-child(2){
+              margin-left: 0.1em;
+            }
+            button{
+              background-color: #29aae1;
+              padding: 0.5em 7.1rem;
+              margin-top: 0.3em;
+              border-radius: 5px;
+            }
+          }
           }
           .arrowDown {
             height: 20%;
