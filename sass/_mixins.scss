@@ -1,6 +1,13 @@
 @mixin bgColor($color){
   background-color: $color;
 }
+@mixin sectionWrapper($imgPath){
+  display: block;
+  position: relative;
+  background-repeat: no-repeat;
+  background: url($imgPath);
+  height: $section_height;
+}
 @mixin bgTransparency {
   &::after {
     content: "";
@@ -17,4 +24,21 @@
 @mixin posFront{
   z-index: 99;
   position: relative;
+}
+
+@mixin titleStyle{
+  font-size: $font_size_title;
+  font-weight: lighter;
+}
+
+@mixin rectBG{
+  &::before{
+    content: "";
+    background-color: white;
+    width: 150px;
+    height: 130px;
+    @include border-radius(5px, 5px);
+    position: absolute;
+    z-index: -1;
+  }
 }

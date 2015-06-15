@@ -1,4 +1,3 @@
-/*@import "compass/reset";*/
 @import "compass/css3/border-radius";
 @import "compass/typography/lists/horizontal-list";
 @import "compass/layout/sticky-footer";
@@ -11,6 +10,7 @@
 body {
   font-family: $font_open_sans;
   color: $main_font_color;
+  @include bgColor(black);
   a{
     text-decoration: none;
     color: $main_font_color;
@@ -23,17 +23,13 @@ body {
     height: $document_height;
     margin:  0 auto;
     #join {
-      display: block;
-      position: relative;
-      background-repeat: no-repeat;
-      background: url('../PSDs/imgs/applyFormBG.jpg');
-      height: $section_height;
+      @include sectionWrapper('../PSDs/imgs/applyFormBG.jpg');
       > div{
         header{
           width: 90%;
           height: $section_height*0.1;
           margin: 0 auto;
-          @include bgColor(green);
+          //@include bgColor(green);
           .logo{
             width: 29%;
             display: inline-block;
@@ -53,28 +49,105 @@ body {
         .content {
           display: block;
           width: 80%;
-          height: $section_height*0.9;
           margin:  0 auto;
-          @include bgColor(blue);
+          height: $section_height*0.9;
+          //@include bgColor(blue);
           @include posFront;
           .promoText{
             display: inline-block;
             width: 45%;
             height: 80%;
             vertical-align: top;
-            @include bgColor(WHITE);
+            //@include bgColor(WHITE);
             margin: 0 2.5%;
-            span{
-              background-color: black;
+            .title{
+              //background-color: black;
+              margin-top: 20%;
+              width: 90%;
+              margin-left: 10%;
+              @include titleStyle;
+            }
+            .subtitle {
+              //background-color: black;
+              width: 90%;
+              margin-left: 10%;
+              font-size: $font_size_subtitle;
             }
           }
-          .applyForm{
+          .applyWrap{
             display: inline-block;
             vertical-align: top;
             width: 45%;
             height: 80%;
             margin-left: 2.5%;
-            @include bgColor(yellow);
+            //@include bgColor(yellow);
+            .applyForm {
+              width: 80%;
+              height: 80%;
+              background-color: rgb(2, 0, 0);
+              //@include opacity(0.9);
+              border: 1px solid white;
+              @include border-radius(5px, 5px);
+              margin-top: 15%;
+              margin-left: 10%;
+              > span{
+                font-size: $font_size_subtitle;
+                font-weight: bold;
+                width: 80%;
+                float: right;
+                margin-top: 7%;
+                margin-bottom: 2%;
+              }
+              .fieldGroup {
+                height: 80%;
+                width: 72%;
+                margin: 0 auto;
+                display: flex;
+                > table{
+                  font-size: $font_size_input;
+                  table-layout:fixed;
+                  width: 100%;
+                  height: 80%;
+                  display: table;
+                }
+                table td {
+                  width: 94%;
+                  height: 10%;
+                  display: inline-block;
+                  white-space: nowrap;
+                  margin-bottom: 2%;
+                  input {
+                    width: 100%;
+                    color: black;
+                    height: 35px;
+                    border: 0px;
+                    padding-left: 5%;
+                    @include border-radius(5px, 5px);
+                  }
+                  button{
+                    width: 100%;
+                    height: 37px;
+                    border: 0px;
+                    @include border-radius(5px, 5px);
+                    background-color: $bg_color_send;
+                  }
+                }
+                table tr:first-child{
+                  td{
+                    width: 46%;
+                  }
+                  td:first-child{
+                    margin-right: 4%;
+                  }
+                }
+                table tr:last-child{
+                  td{
+                    width: 99%;
+                    position: relative;
+                  }
+                }
+              }
+            }
           }
           .arrowDown {
             height: 20%;
@@ -88,15 +161,195 @@ body {
     #join{
       @include bgTransparency;
     }
+    #benefits{
+      @include sectionWrapper('../PSDs/imgs/benefitsBG.jpg');
+      > div{
+        .contentText{
+          height: $section_height*0.3;
+          width: 100%;
+          @include posFront;
+          padding-top: $section_height*0.1;
+          text-align: center;
+          .title{
+            font-size: $font_size_title;
+            font-weight: lighter;
+          }
+          .subtitle{
+            width: 50%;
+            margin: 0 auto;
+            font-size: $font_size_subtitle;
+            font-weight: lighter;
+          }
+        }
+        .companiesIcons{
+          width: 80%;
+          margin: 0 auto;
+          height: $section_height*0.4;
+          @include posFront;
+          //@include bgColor(yellow);
+          table{
+            width: 75%;
+            height: 100%;
+            margin: 0 auto;
+          }
+          table tr{
+            position: relative;
+          }
+          table tr td{
+            @include rectBG;
+            img{
+              position: relative;
+              left: 14px;
+              top: 7px;
+            }
+          }
+        }
+        .arrowDown {
+          height: 20%;
+          width: 20%;
+          margin: 6% auto 0 auto;
+          text-align: center;
+          @include posFront;
+        }
+      }
+    }
+    #benefits{
+      @include bgTransparency;
+    }
+    #events{
+      @include sectionWrapper('../PSDs/imgs/eventsBG.jpg');
+      display: flex;
+      > div{
+        @include posFront;
+        .contentText{
+          height: $section_height*0.3;
+          width: 100%;
+          padding-top: $section_height*0.1;
+          text-align: center;
+          .title{
+            font-size: $font_size_title;
+            font-weight: lighter;
+          }
+          .subtitle{
+            width: 50%;
+            margin: 0 auto;
+            font-size: $font_size_subtitle;
+            font-weight: lighter;
+          }
+        }
+        .eventsList{
+          width: 50%;
+          height: $section_height*0.4;
+          //@include bgColor(yellow);
+          margin: 0 auto;
+          .eventDetails{
+            display: block;
+            width: 82%;
+            margin: 0 auto 2% auto;
+            border: 1px solid white;
+            @include border-radius(5px, 5px);
+            height: 40%;
+            .eventImage {
+              float: left;
+              width: 20%;
+              height: 100%;
+              //@include bgColor(red);
+              img {
+                width: 87%;
+                height: 85%;
+                margin: 9% 6%;
+              }
+            }
+            .eventText{
+              float: left;
+              width: 70%;
+              height: 100%;
+              text-align: left;
+              .eventName{
+                font-size: $font_size_subtitle;
+                font-weight: bold;
+                padding-left: 2%;
+                padding-right: 2%;
+                margin: 4% 0 2% 0;
+              }
+              .eventDescription{
+                font-size: $font_size_subtitle;
+                font-weight: lighter;
+                padding-left: 2%;
+                padding-right: 2%;
+                margin: 2% 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    #events{
+      @include bgTransparency;
+    }
+    #contact{
+      height: 270px;
+      display: flex;
+      @include bgColor(black);
+      .contactOpt{
+        width: 22%;
+        height: 50%;
+        //@include bgColor(yellow);
+        text-align: center;
+        margin: 5% auto;
+        .text {
+          font-size: $font_size_title;
+          font-weight: lighter;
+          width: 100%;
+          height: 50%;
+          display: block;
+        }
+        .contactBttn{
+          width: 100%;
+          height: 48%;
+          button {
+            width: 100%;
+            height: 50%;
+            font-size: $font_size_subtitle;
+            font-weight: bold;
+            border: 1px solid white;
+            @include border-radius(5px, 5px);
+            background-color: black;
+          }
+        }
+      }
+    }
+
     footer{
       width: 100%;
-      /*@include sticky-footer(24px);*/
+      height: 117px;
+      background-color: rgb(32, 32, 32);
+      @include sticky-footer(24px);
+      font-size: $font_size_input;
+      font-weight: lighter;
       #footer{
+        bottom: 65%;
         div{
           @include inline-block;
           padding-left: floor($document_width*0.05);
           ul{
             @include horizontal-list(floor($document_width*0.01));
+          }
+        }
+        .collaborationIcons{
+          width: 100%;
+          padding-left: 0px;
+          padding-right: 0px;
+          margin-right: 0px;
+          span {
+            float: right;
+          }
+        }
+        .socialIcons{
+          width: 100%;
+          height: 100%;
+          a img{
+            width: 2%;
           }
         }
       }
