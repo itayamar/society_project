@@ -20,8 +20,7 @@ body {
       body .mainWrap #join > div header {
         width: 90%;
         height: 67.2px;
-        margin: 0 auto;
-        background-color: green; }
+        margin: 0 auto; }
         body .mainWrap #join > div header .logo {
           width: 29%;
           display: inline-block;
@@ -60,19 +59,25 @@ body {
         width: 80%;
         height: 537.6px;
         margin: 5% auto 0;
-        background-color: blue;
         z-index: 99;
         position: relative; }
         body .mainWrap #join > div .content .promoText {
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
           display: inline-block;
           width: 45%;
           height: 70%;
           vertical-align: top;
-          background-color: WHITE;
-          padding-top: 3%;
-          margin: 0 2.5%; }
-          body .mainWrap #join > div .content .promoText span {
-            background-color: black; }
+          padding-top: 3em;
+          margin: 0 2.5%;
+          color: white;
+          font-weight: 400; }
+          body .mainWrap #join > div .content .promoText > h1 {
+            font-size: 1.95em;
+            font-weight: 400; }
+          body .mainWrap #join > div .content .promoText p {
+            font-size: 1.05em; }
         body .mainWrap #join > div .content .applyFormDiv {
           -moz-box-sizing: border-box;
           -webkit-box-sizing: border-box;
@@ -86,18 +91,20 @@ body {
           background: url("../PSDs/imgs/formImg.jpg") no-repeat;
           background-size: contain; }
           body .mainWrap #join > div .content .applyFormDiv p {
-            margin-left: 1em;
-            font-size: 1.0625em; }
+            margin-left: 0.5em;
+            font-size: 1.0625em;
+            font-weight: 700; }
           body .mainWrap #join > div .content .applyFormDiv form input {
             margin-top: 0.2em;
             color: #808080;
             padding: 0.5em;
-            border-radius: 5px; }
+            border-radius: 5px;
+            font-size: 0.85rem; }
           body .mainWrap #join > div .content .applyFormDiv form input:nth-child(2) {
             margin-left: 0.1em; }
           body .mainWrap #join > div .content .applyFormDiv form button {
             background-color: #29aae1;
-            padding: 0.5em 7.1rem;
+            padding: 0.5em 6rem;
             margin-top: 0.3em;
             border-radius: 5px; }
         body .mainWrap #join > div .content .arrowDown {

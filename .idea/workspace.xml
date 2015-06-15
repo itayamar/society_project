@@ -2,60 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfd1eff-6831-4055-a642-f91b13c182e7" name="Default" comment="Added the ApplyForm itself and its CSS.&#10;Changed the ApplyForm class name to &quot; ApplyFormDiv&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_animation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_appearance.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-clip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-origin.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_background-size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_box-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_box-sizing.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_bullets.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_columns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_css3.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_flexbox.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_float.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_font-face.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_hacks.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/46a95e3b8e3c55fe2e55dd013290f248a8a22a01/_horizontal-list.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_hyphenation.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_images.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_inline-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/_mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/css3/_opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_regions.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/d29c37bf1010d9e6290d6ce343d1790f64b4029e/_reset.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/fdca2e7edeb6fe922a7efab812453c853fb3aaa2/_sticky-footer.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/1e7402b635daa34f84997103f102c8cb35972f2c/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/_support.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_text-shadow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_transform.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_transition.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/55196f09977faeff43a5c0ce1a9829d9bfacccc4/_user-interface.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/C%058/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/bbe84896b605e063a3cbea18b119d4fe53769a3a/_utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/_variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PSDs/imgs/formImg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/ie.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/screen.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/main.scssc" afterPath="$PROJECT_DIR$/.sass-cache/ea429d76d8cc131d07e462c7793c398e5044b710/main.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css.map" afterPath="$PROJECT_DIR$/stylesheets/main.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/main.scss" afterPath="$PROJECT_DIR$/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/screen.css" afterPath="$PROJECT_DIR$/stylesheets/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="society_project.iws" />
@@ -77,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.483871">
+            <state vertical-scroll-proportion="0.1376673">
               <caret line="44" column="135" selection-start-line="44" selection-start-column="135" selection-end-line="44" selection-end-column="135" />
               <folding />
             </state>
@@ -101,18 +52,13 @@
         <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="screen.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/screen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33212996">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-              <folding />
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+              <folding>
+                <marker date="1434330664221" expanded="true" signature="1793:1899" placeholder="{...}" />
+                <marker date="1434330664221" expanded="true" signature="2221:2300" placeholder="{...}" />
+                <marker date="1434330664221" expanded="true" signature="2545:2551" placeholder="{...}" />
+                <marker date="1434330664221" expanded="true" signature="3317:3386" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +66,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.645162">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state vertical-scroll-proportion="-2.6774194">
+              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -285,6 +231,13 @@
       <option name="number" value="Default" />
       <updated>1433953586696</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added the ApplyForm itself and its CSS.&#10;Changed the ApplyForm class name to &quot; ApplyFormDiv&quot;">
+      <created>1434293646272</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1434293646272</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -350,7 +303,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
+          <folding>
+            <marker date="1434330664221" expanded="true" signature="1793:1899" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2221:2300" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2545:2551" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="3317:3386" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -390,7 +348,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1434330664221" expanded="true" signature="1793:1899" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2221:2300" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2545:2551" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="3317:3386" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,6 +369,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5956679">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.193548">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -425,42 +404,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.193548">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <marker date="1434330664221" expanded="true" signature="1793:1899" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2221:2300" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="2545:2551" placeholder="{...}" />
+            <marker date="1434330664221" expanded="true" signature="3317:3386" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6774194">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.483871">
+        <state vertical-scroll-proportion="0.1376673">
           <caret line="44" column="135" selection-start-line="44" selection-start-column="135" selection-end-line="44" selection-end-column="135" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33212996">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>

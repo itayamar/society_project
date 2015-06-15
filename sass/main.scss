@@ -35,7 +35,7 @@ body {
           width: 90%;
           height: $section_height*0.1;
           margin: 0 auto;
-          @include bgColor(green);
+          //@include bgColor(green);
           .logo{
             width: 29%;
             display: inline-block;
@@ -58,18 +58,25 @@ body {
           height: $section_height*0.8;
           margin:  5% auto 0;
           //padding-top: 10%;
-          @include bgColor(blue);
+          //@include bgColor(blue);
           @include posFront;
           .promoText{
+            @include box-sizing(border-box);
             display: inline-block;
             width: 45%;
             height: 70%;
             vertical-align: top;
-            @include bgColor(WHITE);
-            padding-top: 3%;
+            //@include bgColor(orange);
+            padding-top: 3em;
             margin: 0 2.5%;
-            span{
-              background-color: black;
+            color: white;
+            font-weight: 400;
+            >h1 {
+              font-size: 1.95em;
+              font-weight: 400;
+            }
+            p {
+              font-size: 1.05em;
             }
           }
           .applyFormDiv{
@@ -84,8 +91,9 @@ body {
             background: url("../PSDs/imgs/formImg.jpg") no-repeat;
             background-size: contain;
             p{
-              margin-left: 1em;
+              margin-left: 0.5em;
               font-size: 1.0625em;
+              font-weight: 700;
             }
           form{
             input{
@@ -93,13 +101,14 @@ body {
               color: #808080;
               padding: 0.5em;
               border-radius: 5px;
+              font-size: 0.85rem;
             }
             input:nth-child(2){
               margin-left: 0.1em;
             }
             button{
               background-color: #29aae1;
-              padding: 0.5em 7.1rem;
+              padding: 0.5em 6rem;
               margin-top: 0.3em;
               border-radius: 5px;
             }
