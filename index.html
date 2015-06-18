@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>society project</title>
-    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <!--<link href="node_modules/normalize.css/normalize.css" rel="stylesheet">-->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
@@ -37,32 +39,34 @@
                         <div class="applyForm">
                             <span>Apply for a Society - Card</span>
                             <div class="fieldGroup">
-                                <table>
-                                    <tr>
-                                        <td><input type='text' placeholder="First*"></td>
-                                        <td><input type='text' placeholder="Last*"></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type='text' placeholder="Email*"></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type='text' placeholder="Where do you live?*"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type='text' placeholder="Phone*"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type='text' placeholder="Company*"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input type='text' placeholder="How did you hear about us?*"/></td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <button class="sendBttn">Send</button>
-                                        </td>
-                                    </tr>
-                                </table>
+                                <form>
+                                    <table>
+                                        <tr>
+                                            <td><input type='text' placeholder="First*"></td>
+                                            <td><input type='text' placeholder="Last*"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Email*"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Where do you live?*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Phone*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Company*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="How did you hear about us?*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <button class="sendBttn">Send</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
                             </div>
                         </div>
                     </div>

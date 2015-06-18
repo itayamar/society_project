@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bootstrap' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'bootstrap', null ]
+5 verbose cache add name=undefined spec="bootstrap" args=["bootstrap",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'bootstrap',
+6 verbose parsed url   path: 'bootstrap',
+6 verbose parsed url   href: 'bootstrap' }
+7 silly lockFile 3c71cc99-bootstrap bootstrap
+8 verbose lock bootstrap /home/cutcha/.npm/3c71cc99-bootstrap.lock
+9 silly lockFile 3c71cc99-bootstrap bootstrap
+10 silly lockFile 3c71cc99-bootstrap bootstrap
+11 verbose addNamed [ 'bootstrap', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 2571d98f-bootstrap bootstrap@
+14 verbose lock bootstrap@ /home/cutcha/.npm/2571d98f-bootstrap.lock
+15 silly addNameRange { name: 'bootstrap', range: '*', hasData: false }
+16 verbose request where is /bootstrap
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 17f6af4211c607a0
+19 verbose url raw /bootstrap
+20 verbose url resolving [ 'https://registry.npmjs.org/', './bootstrap' ]
+21 verbose url resolved https://registry.npmjs.org/bootstrap
+22 verbose request where is https://registry.npmjs.org/bootstrap
+23 info trying registry request attempt 1 at 10:46:36
+24 verbose etag "5AK36EXZ8QABGQ7N5HSTG4YAR"
+25 http GET https://registry.npmjs.org/bootstrap
+26 http 200 https://registry.npmjs.org/bootstrap
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"BXMM28Z59QDKT3FIFR1UX5X6U"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '25737',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Thu, 18 Jun 2015 07:46:37 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '4',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1434613597.543965,VS0,VE0',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'bootstrap', range: '*', hasData: true }
+29 silly addNameRange versions [ 'bootstrap',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '3.1.1',
+29 silly addNameRange     '3.2.0',
+29 silly addNameRange     '3.3.0',
+29 silly addNameRange     '3.3.1',
+29 silly addNameRange     '3.3.2',
+29 silly addNameRange     '3.3.4',
+29 silly addNameRange     '3.3.5' ] ]
+30 verbose addNamed [ 'bootstrap', '3.3.5' ]
+31 verbose addNamed [ '3.3.5', '3.3.5' ]
+32 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+33 verbose lock bootstrap@3.3.5 /home/cutcha/.npm/85083644-bootstrap-3-3-5.lock
+34 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+35 verbose lock https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz /home/cutcha/.npm/a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz',
+36 verbose addRemoteTarball   '1777ab79299b128d87dce7cbd86fdc46ac69c0b1' ]
+37 info retry fetch attempt 1 at 10:46:38
+38 verbose fetch to= /tmp/npm-25124-apZrMzvP/registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+39 http GET https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+40 http 200 https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+41 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+42 silly lockFile a2df37ae-rg-bootstrap-bootstrap-3-3-5-tgz https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.5.tgz
+43 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+44 silly lockFile 85083644-bootstrap-3-3-5 bootstrap@3.3.5
+45 silly lockFile 2571d98f-bootstrap bootstrap@
+46 silly lockFile 2571d98f-bootstrap bootstrap@
+47 error Error: EACCES, mkdir '/home/cutcha/.npm/bootstrap/3.3.5'
+47 error  { [Error: EACCES, mkdir '/home/cutcha/.npm/bootstrap/3.3.5']
+47 error   errno: 3,
+47 error   code: 'EACCES',
+47 error   path: '/home/cutcha/.npm/bootstrap/3.3.5' }
+48 error Please try running this command again as root/Administrator.
+49 error System Linux 3.13.0-53-generic
+50 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "bootstrap"
+51 error cwd /home/cutcha/public_html/society_project
+52 error node -v v0.10.35
+53 error npm -v 1.4.28
+54 error path /home/cutcha/.npm/bootstrap/3.3.5
+55 error code EACCES
+56 error errno 3
+57 error stack Error: EACCES, mkdir '/home/cutcha/.npm/bootstrap/3.3.5'
+58 verbose exit [ 3, true ]
