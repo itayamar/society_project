@@ -3,4 +3,77 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+
+/***********************************
+**************TABLETS****************
+***********************************/
+
+
+@media screen  and (max-width: 992px) {
+  html {
+    font-size: 14px;
+    body {
+      img {
+        max-width: 100%;
+      }
+      .mainWrap {
+        max-width: 100%;
+        #join {
+          > div {
+            header {
+              //width: 100%;
+            }
+          }
+        }
+        #contact {
+          background-color: orange;
+        }
+      }
+    }
+  }
+}
+
+/***********************************
+**************PHONES****************
+***********************************/
+
+
+@media screen and (max-width: 767px){
+  html{
+    font-size: 14px;
+    body{
+      img {
+        max-width: 100%;
+      }
+      .mainWrap{
+        max-width: 100%;
+        #join{
+          >div{
+            header{
+              //width: 100%;
+            }
+          }
+        }
+        #contact{
+          background-color: blue;
+        }
+        //#benefits{
+        //  > div {
+        //    .companiesIcons{
+        //      table tr td{
+        //        img{
+        //          position: initial;
+        //        }
+        //      }
+        //      table tr td::before{
+        //        width: 15%;
+        //        height: 20%;
+        //      }
+        //    }
+        //  }
+        //}
+      }
+
+    }
+  }
+}

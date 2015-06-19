@@ -20,11 +20,15 @@ html{
     }
     a:hover{
       color: gray;
+      text-decoration: none;
     }
     .mainWrap{
       width: $document_width;
       height: $document_height;
       margin:  0 auto;
+/*********************************************
+*****************JOIN US PAGE*****************
+*********************************************/
       #join {
         @include sectionWrapper('../PSDs/imgs/applyFormBG.jpg');
         > div{
@@ -48,12 +52,18 @@ html{
                 @include horizontal-list(floor($document_width*0.02)); }
             }
           }
+/*********************************************
+*****************CONTENT DIV*****************
+*********************************************/
           .content {
             display: block;
             width: 80%;
             margin:  0 auto;
             height: $section_height*0.9;
             @include posFront;
+/*********************************************
+*****************PROMOTEXT DIV****************
+*********************************************/
             .promoText{
               display: inline-block;
               width: 45%;
@@ -72,12 +82,18 @@ html{
                 font-size: $font_size_subtitle;
               }
             }
+/*********************************************
+*****************APPLYWRAP DIV*****************
+*********************************************/
             .applyWrap{
               display: inline-block;
               vertical-align: top;
               width: 45%;
               height: 80%;
               margin-left: 2.5%;
+/*********************************************
+*****************APPLY FORM*******************
+*********************************************/
               .applyForm {
                 width: 80%;
                 height: 80%;
@@ -112,7 +128,7 @@ html{
                         input {
                           width: 100%;
                           padding: 0.625rem;
-                          box-sizing: border-box;
+                          @include box-sizing(border-box);
                           margin-bottom: 0.3rem;
                           color: black;
                           border: 0px;
@@ -156,6 +172,9 @@ html{
       #join{
         @include bgTransparency;
       }
+/*********************************************
+*****************BENEFITS PAGE*****************
+*********************************************/
       #benefits{
         @include sectionWrapper('../PSDs/imgs/benefitsBG.jpg');
         > div{
@@ -211,6 +230,9 @@ html{
       #benefits{
         @include bgTransparency;
       }
+/*********************************************
+*****************EVENTS PAGE*****************
+*********************************************/
       #events{
         @include sectionWrapper('../PSDs/imgs/eventsBG.jpg');
         display: flex;
@@ -282,6 +304,9 @@ html{
       #events{
         @include bgTransparency;
       }
+/*********************************************
+*****************CONTACT PAGE*****************
+*********************************************/
       #contact{
         height: 270px;
         display: flex;
@@ -314,12 +339,14 @@ html{
           }
         }
       }
-
+/*********************************************
+*****************FOOTER***********************
+*********************************************/
       footer{
         width: 100%;
         height: 117px;
         background-color: rgb(32, 32, 32);
-        @include sticky-footer(24px);
+        @include sticky-footer(1.5rem);
         font-size: $font_size_input;
         font-weight: lighter;
         #footer{

@@ -8,142 +8,173 @@ html {
       text-decoration: none;
       color: white; }
     html body a:hover {
-      color: gray; }
+      color: gray;
+      text-decoration: none; }
     html body .mainWrap {
       width: 1280px;
       height: 2407px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      /*********************************************
+      *****************JOIN US PAGE*****************
+      *********************************************/
+      /*********************************************
+      *****************BENEFITS PAGE*****************
+      *********************************************/
+      /*********************************************
+      *****************EVENTS PAGE*****************
+      *********************************************/
+      /*********************************************
+      *****************CONTACT PAGE*****************
+      *********************************************/
+      /*********************************************
+      *****************FOOTER***********************
+      *********************************************/ }
       html body .mainWrap #join {
         display: block;
         position: relative;
         background-repeat: no-repeat;
         background: url("../PSDs/imgs/applyFormBG.jpg");
-        height: 672px; }
-        html body .mainWrap #join > div header {
-          width: 90%;
-          height: 67.2px;
-          margin: 0 auto; }
-          html body .mainWrap #join > div header .logo {
-            width: 29%;
-            display: inline-block;
-            z-index: 99;
-            position: relative; }
-          html body .mainWrap #join > div header nav {
-            font-size: 14px;
+        height: 42rem; }
+        html body .mainWrap #join > div {
+          /*********************************************
+          *****************CONTENT DIV*****************
+          *********************************************/ }
+          html body .mainWrap #join > div header {
+            width: 90%;
+            height: 4.2rem;
+            margin: 0 auto; }
+            html body .mainWrap #join > div header .logo {
+              width: 29%;
+              display: inline-block;
+              z-index: 99;
+              position: relative; }
+            html body .mainWrap #join > div header nav {
+              font-size: 0.875rem;
+              z-index: 99;
+              position: relative;
+              width: 70%;
+              display: inline-block;
+              top: 25%; }
+              html body .mainWrap #join > div header nav ul {
+                float: right;
+                margin: 0;
+                padding: 0;
+                border: 0;
+                overflow: hidden;
+                *zoom: 1; }
+                html body .mainWrap #join > div header nav ul li {
+                  list-style-image: none;
+                  list-style-type: none;
+                  margin-left: 0;
+                  white-space: nowrap;
+                  float: left;
+                  padding-left: 25px;
+                  padding-right: 25px; }
+                  html body .mainWrap #join > div header nav ul li:first-child {
+                    padding-left: 0; }
+                  html body .mainWrap #join > div header nav ul li:last-child {
+                    padding-right: 0; }
+                  html body .mainWrap #join > div header nav ul li.last {
+                    padding-right: 0; }
+          html body .mainWrap #join > div .content {
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            height: 37.8rem;
             z-index: 99;
             position: relative;
-            width: 70%;
-            display: inline-block;
-            top: 25%; }
-            html body .mainWrap #join > div header nav ul {
-              float: right;
-              margin: 0;
-              padding: 0;
-              border: 0;
-              overflow: hidden;
-              *zoom: 1; }
-              html body .mainWrap #join > div header nav ul li {
-                list-style-image: none;
-                list-style-type: none;
-                margin-left: 0;
-                white-space: nowrap;
-                float: left;
-                padding-left: 25px;
-                padding-right: 25px; }
-                html body .mainWrap #join > div header nav ul li:first-child {
-                  padding-left: 0; }
-                html body .mainWrap #join > div header nav ul li:last-child {
-                  padding-right: 0; }
-                html body .mainWrap #join > div header nav ul li.last {
-                  padding-right: 0; }
-        html body .mainWrap #join > div .content {
-          display: block;
-          width: 80%;
-          margin: 0 auto;
-          height: 604.8px;
-          z-index: 99;
-          position: relative; }
-          html body .mainWrap #join > div .content .promoText {
-            display: inline-block;
-            width: 45%;
-            height: 80%;
-            vertical-align: top;
-            margin: 0 2.5%; }
-            html body .mainWrap #join > div .content .promoText .title {
-              margin-top: 20%;
-              width: 90%;
-              margin-left: 10%;
-              font-size: 31px;
-              font-weight: lighter; }
-            html body .mainWrap #join > div .content .promoText .subtitle {
-              width: 90%;
-              margin-left: 10%;
-              font-size: 17px; }
-          html body .mainWrap #join > div .content .applyWrap {
-            display: inline-block;
-            vertical-align: top;
-            width: 45%;
-            height: 80%;
-            margin-left: 2.5%; }
-            html body .mainWrap #join > div .content .applyWrap .applyForm {
-              width: 80%;
+            /*********************************************
+            *****************PROMOTEXT DIV****************
+            *********************************************/
+            /*********************************************
+            *****************APPLYWRAP DIV*****************
+            *********************************************/ }
+            html body .mainWrap #join > div .content .promoText {
+              display: inline-block;
+              width: 45%;
               height: 80%;
-              background-color: #020000;
-              border: 1px solid white;
-              -moz-border-radius: 5px / 5px;
-              -webkit-border-radius: 5px 5px;
-              border-radius: 5px / 5px;
-              margin-top: 15%;
-              margin-left: 10%; }
-              html body .mainWrap #join > div .content .applyWrap .applyForm > span {
-                font-size: 17px;
-                font-weight: bold;
+              vertical-align: top;
+              margin: 0 2.5%; }
+              html body .mainWrap #join > div .content .promoText .title {
+                margin-top: 20%;
+                width: 90%;
+                margin-left: 10%;
+                font-size: 1.9375rem;
+                font-weight: lighter; }
+              html body .mainWrap #join > div .content .promoText .subtitle {
+                width: 90%;
+                margin-left: 10%;
+                font-size: 1.0625rem; }
+            html body .mainWrap #join > div .content .applyWrap {
+              display: inline-block;
+              vertical-align: top;
+              width: 45%;
+              height: 80%;
+              margin-left: 2.5%;
+              /*********************************************
+              *****************APPLY FORM*******************
+              *********************************************/ }
+              html body .mainWrap #join > div .content .applyWrap .applyForm {
                 width: 80%;
-                float: right;
-                margin-top: 7%;
-                margin-bottom: 2%; }
-              html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup {
                 height: 80%;
-                width: 72%;
-                margin: 0 auto;
-                display: flex; }
-                html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table {
-                  font-size: 13.5px;
-                  table-layout: fixed;
-                  width: 100%;
+                background-color: #020000;
+                border: 1px solid white;
+                -moz-border-radius: 5px / 5px;
+                -webkit-border-radius: 5px 5px;
+                border-radius: 5px / 5px;
+                margin-top: 15%;
+                margin-left: 10%; }
+                html body .mainWrap #join > div .content .applyWrap .applyForm > span {
+                  font-size: 1.0625rem;
+                  font-weight: bold;
+                  width: 80%;
+                  float: right;
+                  margin-top: 7%;
+                  margin-bottom: 2%; }
+                html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup {
                   height: 80%;
-                  display: table;
-                  position: relative; }
-                  html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td {
-                    width: 100%; }
-                    html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td input {
-                      width: 100%;
-                      padding: 0.625rem;
-                      box-sizing: border-box;
-                      margin-bottom: 0.3rem;
-                      color: black;
-                      border: 0px;
-                      padding-left: 0.2rem;
-                      -moz-border-radius: 5px / 5px;
-                      -webkit-border-radius: 5px 5px;
-                      border-radius: 5px / 5px; }
-                    html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td button {
-                      width: 100%;
-                      height: 2.375rem;
-                      border: 0px;
-                      -moz-border-radius: 5px / 5px;
-                      -webkit-border-radius: 5px 5px;
-                      border-radius: 5px / 5px;
-                      background-color: #29aae1; }
-                  html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table tr:first-child td input {
-                    width: 98%; }
-                  html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table tr:first-child td:last-child input {
-                    margin-left: 2%; }
-          html body .mainWrap #join > div .content .arrowDown {
-            height: 20%;
-            width: 20%;
-            margin: 6% auto;
-            text-align: center; }
+                  width: 72%;
+                  margin: 0 auto;
+                  display: flex; }
+                  html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table {
+                    font-size: 0.843rem;
+                    table-layout: fixed;
+                    width: 100%;
+                    height: 80%;
+                    display: table;
+                    position: relative; }
+                    html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td {
+                      width: 100%; }
+                      html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td input {
+                        width: 100%;
+                        padding: 0.625rem;
+                        -moz-box-sizing: border-box;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                        margin-bottom: 0.3rem;
+                        color: black;
+                        border: 0px;
+                        padding-left: 0.2rem;
+                        -moz-border-radius: 5px / 5px;
+                        -webkit-border-radius: 5px 5px;
+                        border-radius: 5px / 5px; }
+                      html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table td button {
+                        width: 100%;
+                        height: 2.375rem;
+                        border: 0px;
+                        -moz-border-radius: 5px / 5px;
+                        -webkit-border-radius: 5px 5px;
+                        border-radius: 5px / 5px;
+                        background-color: #29aae1; }
+                    html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table tr:first-child td input {
+                      width: 98%; }
+                    html body .mainWrap #join > div .content .applyWrap .applyForm .fieldGroup form > table tr:first-child td:last-child input {
+                      margin-left: 2%; }
+            html body .mainWrap #join > div .content .arrowDown {
+              height: 20%;
+              width: 20%;
+              margin: 6% auto;
+              text-align: center; }
       html body .mainWrap #join::after {
         content: "";
         background-color: #020000;
@@ -160,26 +191,26 @@ html {
         position: relative;
         background-repeat: no-repeat;
         background: url("../PSDs/imgs/benefitsBG.jpg");
-        height: 672px; }
+        height: 42rem; }
         html body .mainWrap #benefits > div .contentText {
-          height: 201.6px;
+          height: 12.6rem;
           width: 100%;
           z-index: 99;
           position: relative;
-          padding-top: 67.2px;
+          padding-top: 4.2rem;
           text-align: center; }
           html body .mainWrap #benefits > div .contentText .title {
-            font-size: 31px;
+            font-size: 1.9375rem;
             font-weight: lighter; }
           html body .mainWrap #benefits > div .contentText .subtitle {
             width: 50%;
             margin: 0 auto;
-            font-size: 17px;
+            font-size: 1.0625rem;
             font-weight: lighter; }
         html body .mainWrap #benefits > div .companiesIcons {
           width: 80%;
           margin: 0 auto;
-          height: 268.8px;
+          height: 16.8rem;
           z-index: 99;
           position: relative; }
           html body .mainWrap #benefits > div .companiesIcons table {
@@ -191,8 +222,8 @@ html {
           html body .mainWrap #benefits > div .companiesIcons table tr td::before {
             content: "";
             background-color: white;
-            width: 150px;
-            height: 130px;
+            width: 9.375rem;
+            height: 8.125rem;
             -moz-border-radius: 5px / 5px;
             -webkit-border-radius: 5px 5px;
             border-radius: 5px / 5px;
@@ -225,27 +256,27 @@ html {
         position: relative;
         background-repeat: no-repeat;
         background: url("../PSDs/imgs/eventsBG.jpg");
-        height: 672px;
+        height: 42rem;
         display: flex; }
         html body .mainWrap #events > div {
           z-index: 99;
           position: relative; }
           html body .mainWrap #events > div .contentText {
-            height: 201.6px;
+            height: 12.6rem;
             width: 100%;
-            padding-top: 67.2px;
+            padding-top: 4.2rem;
             text-align: center; }
             html body .mainWrap #events > div .contentText .title {
-              font-size: 31px;
+              font-size: 1.9375rem;
               font-weight: lighter; }
             html body .mainWrap #events > div .contentText .subtitle {
               width: 50%;
               margin: 0 auto;
-              font-size: 17px;
+              font-size: 1.0625rem;
               font-weight: lighter; }
           html body .mainWrap #events > div .eventsList {
             width: 50%;
-            height: 268.8px;
+            height: 16.8rem;
             margin: 0 auto; }
             html body .mainWrap #events > div .eventsList .eventDetails {
               display: block;
@@ -270,13 +301,13 @@ html {
                 height: 100%;
                 text-align: left; }
                 html body .mainWrap #events > div .eventsList .eventDetails .eventText .eventName {
-                  font-size: 17px;
+                  font-size: 1.0625rem;
                   font-weight: bold;
                   padding-left: 2%;
                   padding-right: 2%;
                   margin: 4% 0 2% 0; }
                 html body .mainWrap #events > div .eventsList .eventDetails .eventText .eventDescription {
-                  font-size: 17px;
+                  font-size: 1.0625rem;
                   font-weight: lighter;
                   padding-left: 2%;
                   padding-right: 2%;
@@ -302,7 +333,7 @@ html {
           text-align: center;
           margin: 5% auto; }
           html body .mainWrap #contact .contactOpt .text {
-            font-size: 31px;
+            font-size: 1.9375rem;
             font-weight: lighter;
             width: 100%;
             height: 50%;
@@ -313,7 +344,7 @@ html {
             html body .mainWrap #contact .contactOpt .contactBttn button {
               width: 100%;
               height: 50%;
-              font-size: 17px;
+              font-size: 1.0625rem;
               font-weight: bold;
               border: 1px solid white;
               -moz-border-radius: 5px / 5px;
@@ -324,7 +355,7 @@ html {
         width: 100%;
         height: 117px;
         background-color: #202020;
-        font-size: 13.5px;
+        font-size: 0.843rem;
         font-weight: lighter; }
         html body .mainWrap footer html, html body .mainWrap footer body {
           height: 100%; }
@@ -333,13 +364,13 @@ html {
           min-height: 100%;
           height: auto !important;
           height: 100%;
-          margin-bottom: -24px; }
+          margin-bottom: -1.5rem; }
           html body .mainWrap footer #root #root_footer {
-            height: 24px; }
+            height: 1.5rem; }
         html body .mainWrap footer #footer {
           clear: both;
           position: relative;
-          height: 24px; }
+          height: 1.5rem; }
         html body .mainWrap footer #footer {
           bottom: 65%; }
           html body .mainWrap footer #footer div {
