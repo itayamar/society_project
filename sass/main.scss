@@ -97,7 +97,8 @@ html{
               .applyForm {
                 width: 80%;
                 height: 80%;
-                background-color: rgb(2, 0, 0);
+                background: url("../PSDs/imgs/formImg.jpg") no-repeat;
+                background-size: cover;
                 border: 1px solid white;
                 @include border-radius(5px, 5px);
                 margin-top: 15%;
@@ -214,7 +215,7 @@ html{
               img{
                 position: relative;
                 left: 0.875rem;
-                top: 0.4375;
+                top: 0.4375rem;
               }
             }
           }
