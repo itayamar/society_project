@@ -9,15 +9,15 @@
 ***********************************/
 
 
-@media screen  and (max-width: 992px) {
+@media screen  and (max-width: 1300px) {
   html {
-    font-size: 14px;
+    font-size: 15px;
     body {
       img {
         max-width: 100%;
       }
       .mainWrap {
-        max-width: 100%;
+        //max-width: 100%;
         #join {
           > div {
             header {
@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 767px){
   html{
-    font-size: 14px;
+    font-size: 13px;
     body{
       img {
         max-width: 100%;
@@ -50,7 +50,7 @@
         #join{
           >div{
             header{
-              //width: 100%;
+              width: 100%;
             }
           }
         }

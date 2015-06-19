@@ -5,25 +5,25 @@
 /***********************************
 **************TABLETS****************
 ***********************************/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1300px) {
   html {
-    font-size: 14px; }
+    font-size: 15px; }
     html body img {
       max-width: 100%; }
-    html body .mainWrap {
-      max-width: 100%; }
-      html body .mainWrap #contact {
-        background-color: orange; } }
+    html body .mainWrap #contact {
+      background-color: orange; } }
 /***********************************
 **************PHONES****************
 ***********************************/
 @media screen and (max-width: 767px) {
   html {
-    font-size: 14px; }
+    font-size: 13px; }
     html body img {
       max-width: 100%; }
     html body .mainWrap {
       max-width: 100%; }
+      html body .mainWrap #join > div header {
+        width: 100%; }
       html body .mainWrap #contact {
         background-color: blue; } }
 

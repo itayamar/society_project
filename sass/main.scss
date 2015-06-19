@@ -131,14 +131,14 @@ html{
                           @include box-sizing(border-box);
                           margin-bottom: 0.3rem;
                           color: black;
-                          border: 0px;
+                          border: 0;
                           padding-left: 0.2rem;
                           @include border-radius(5px, 5px);
                         }
                         button{
                           width: 100%;
                           height: 2.375rem;
-                          border: 0px;
+                          border: 0;
                           @include border-radius(5px, 5px);
                           background-color: $bg_color_send;
                         }
@@ -213,8 +213,8 @@ html{
               @include rectBG;
               img{
                 position: relative;
-                left: 14px;
-                top: 7px;
+                left: 0.875rem;
+                top: 0.4375;
               }
             }
           }
@@ -308,7 +308,7 @@ html{
 *****************CONTACT PAGE*****************
 *********************************************/
       #contact{
-        height: 270px;
+        height: 16.875rem;
         display: flex;
         @include bgColor(black);
         .contactOpt{
@@ -344,7 +344,7 @@ html{
 *********************************************/
       footer{
         width: 100%;
-        height: 117px;
+        height: 7.3125rem;
         background-color: rgb(32, 32, 32);
         @include sticky-footer(1.5rem);
         font-size: $font_size_input;
@@ -360,9 +360,9 @@ html{
           }
           .collaborationIcons{
             width: 100%;
-            padding-left: 0px;
-            padding-right: 0px;
-            margin-right: 0px;
+            padding-left: 0;
+            padding-right: 0;
+            margin-right: 0;
             span {
               float: right;
             }
