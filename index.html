@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>society project</title>
-    <link href="node_modules/normalize.css/normalize.css" rel="stylesheet">
+    <!--<link href="node_modules/normalize.css/normalize.css" rel="stylesheet">-->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 </head>
@@ -16,9 +18,9 @@
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="#">BENEFITS</a></li>
-                            <li><a href="#">EVENTS</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#benefits">BENEFITS</a></li>
+                            <li><a href="#events">EVENTS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
                             <li><a href="#">LOGIN</a></li>
                             <li><a href="#">JOIN SOCIETY</a></li>
                         </ul>
@@ -33,26 +35,111 @@
                             We provide our members with Premier Benefits, Exclusive Events and a Networking Platform.
                         </p>
                     </div>
-                    <div class="applyFormDiv">
-                        <p>Apply for a Society-Card</p>
-                        <form id="applyForm">
-                            <input id="name" value="Name*" size="13em" placeholder="First name" required>
-                            <input id="last" value="Last*" size="12em" placeholder="Last name" required><br>
-                            <input id="email" value="Email*" size="30em" placeholder="Email address" required><br>
-                            <input id="address" value="Where do you live?*" size="30em" placeholder="Address" required><br>
-                            <input id="phone" value="Phone*" size="30em" placeholder="Phone number" required><br>
-                            <input id="company" value="Company*" size="30em" placeholder="Company name" required><br>
-                            <input id="hearFrom" value="How did you hear about us?" placeholder="How did you hear about us?" size="30em"><br>
-                            <button id="send" type="submit">Send</button>
-                        </form>
+                    <div class="applyWrap">
+                        <div class="applyForm">
+                            <span>Apply for a Society - Card</span>
+                            <div class="fieldGroup">
+                                <form>
+                                    <table>
+                                        <tr>
+                                            <td><input type='text' placeholder="First*"></td>
+                                            <td><input type='text' placeholder="Last*"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Email*"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Where do you live?*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Phone*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="Company*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2"><input type='text' placeholder="How did you hear about us?*"/></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <button class="sendBttn">Send</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="arrowDown"><a herf="#"><img src="PSDs/imgs/arrowDown.png" alt="down_arrow"></a></div>
+                    <div class="arrowDown"><a href="#benefits"><img src="PSDs/imgs/arrowDown.png" alt="down_arrow"></a></div>
                 </div>
             </div>
         </section>
-        <section id="benefits"></section>
-        <section id="events"></section>
-        <section id="contact"></section>
+        <section id="benefits">
+            <div class = "subWrap">
+                <div class="contentText">
+                    <h1 class="title">BENEFITS</h1>
+                    <p class="subtitle">Society Card Holders enjoy preferred pricing and premier benefits from leading Hotels, Airlines, Travel Utilities,
+                                        Business Services and Lifestyle Companies.</p>
+                </div>
+                <div class="companiesIcons">
+                    <table>
+                        <tr>
+                            <td><img src="PSDs/imgs/avisIcon.png"></td>
+                            <td><img src="PSDs/imgs/rackspaceIcon.png"></td>
+                            <td><img src="PSDs/imgs/seevIcon.png"></td>
+                            <td><img src="PSDs/imgs/weworkIcon.png"></td>
+                            <td><img src="PSDs/imgs/amazonIcon.png"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="PSDs/imgs/linkedInIcon.png"></td>
+                            <td><img src="PSDs/imgs/carlsonIcon.png"></td>
+                            <td><img src="PSDs/imgs/plazaIcon.png"></td>
+                            <td><img src="PSDs/imgs/sxswIcon.png"></td>
+                            <td><img src="PSDs/imgs/meitavIcon.png"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="arrowDown"><a href="#events"><img src="PSDs/imgs/arrowDown.png" alt="down_arrow"></a></div>
+            </div>
+        </section>
+        <section id="events">
+            <div class = "subWrap">
+                <div class="contentText">
+                    <h1 class="title">EVENTS</h1>
+                    <p class="subtitle">Society Card Holders are invited to exclusive Events throughout the year where they're
+                                        given the opportunity to network  while enjoying top professional and cultural content.</p>
+                </div>
+                <div class="eventsList">
+                    <div class = "eventDetails">
+                        <span class = "eventImage"><img src="PSDs/imgs/calendar-icon.png"></span>
+                        <span class = "eventText">
+                            <p class = "eventName">Event Name</p>
+                            <p class = "eventDescription">San Francisco, CA <br>
+                                                            April 12-16, 2015</p>
+                        </span>
+                    </div>
+                    <div class = "eventDetails">
+                        <span class = "eventImage"><img src="PSDs/imgs/calendar-icon.png"></span>
+                        <span class = "eventText">
+                            <p class = "eventName">Event Name</p>
+                            <p class = "eventDescription">San Francisco, CA <br>
+                                                            April 12-16, 2015</p>
+                        </span>
+>>>>>>> upstream/master
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class = "contactOpt">
+                <span class = "text">
+                    HAVE A QUESTION?
+                </span>
+                <span class="contactBttn">
+                    <button>Contact Us</button>
+                </span>
+            </div>
+        </section>
         <footer>
             <div id="root">
                 <div id="root_footer"></div>
@@ -65,6 +152,17 @@
                         <li><a href="#">Partnership Inquiries</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
+                </div>
+                <div class = "collaborationIcons">
+                    <span>
+                        <a href="#"><img src="PSDs/imgs/leumiTechIcon.png"></a>
+                        <a href="#"><img src="PSDs/imgs/leumiIcon.png"></a>
+                            <a href="#"><img src="PSDs/imgs/elevatorIcon.png"></a>
+                    </span>
+                </div>
+                <div class="socialIcons">
+                    <a href="#"><img src="PSDs/imgs/facebookIcon.png"></a>
+                    <a href="#"><img src="PSDs/imgs/twitterIcon.png"></a>
                 </div>
             </div>
         </footer>

@@ -1,17 +1,16 @@
 /*
 Error: File to import not found or unreadable: compass/css3/border-radius.
-        on line 2 of main.scss
+        on line 1 of main.scss
 
-1: /*@import "compass/reset";*\/
-2: @import "compass/css3/border-radius";
-3: @import "compass/typography/lists/horizontal-list";
-4: @import "compass/layout/sticky-footer";
-5: @import "compass/css3/inline-block";
-6: @import "compass/utilities/general/clearfix";
-7: @import "compass/css3/opacity";
+1: @import "compass/css3/border-radius";
+2: @import "compass/typography/lists/horizontal-list";
+3: @import "compass/layout/sticky-footer";
+4: @import "compass/css3/inline-block";
+5: @import "compass/utilities/general/clearfix";
+6: @import "compass/css3/opacity";
 
 Backtrace:
-main.scss:2
+main.scss:1
 /var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:45:in `import'
 /var/lib/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -54,4 +53,4 @@ main.scss:2
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass/css3/border-radius.\A         on line 2 of main.scss\A \A 1: /*@import \"compass/reset\";*/\A 2: @import \"compass/css3/border-radius\";\A 3: @import \"compass/typography/lists/horizontal-list\";\A 4: @import \"compass/layout/sticky-footer\";\A 5: @import \"compass/css3/inline-block\";\A 6: @import \"compass/utilities/general/clearfix\";\A 7: @import \"compass/css3/opacity\";"; }
+  content: "Error: File to import not found or unreadable: compass/css3/border-radius.\A         on line 1 of main.scss\A \A 1: @import \"compass/css3/border-radius\";\A 2: @import \"compass/typography/lists/horizontal-list\";\A 3: @import \"compass/layout/sticky-footer\";\A 4: @import \"compass/css3/inline-block\";\A 5: @import \"compass/utilities/general/clearfix\";\A 6: @import \"compass/css3/opacity\";"; }
